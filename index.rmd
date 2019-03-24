@@ -28,3 +28,15 @@ plot(pressure)
 ```
 /
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+```{r ggplot}
+library(ggplot2)
+ggplot(data = iris,aes(x=Sepal.Length,y=Petal.Length))+geom_point()
+```
+
+
+
+
+
+
